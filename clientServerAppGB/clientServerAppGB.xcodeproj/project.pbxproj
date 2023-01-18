@@ -56,15 +56,39 @@
 		08F4F56E2977D0A20039C50A /* clientServerAppGB */ = {
 			isa = PBXGroup;
 			children = (
+				08F4F5832977D6BE0039C50A /* Application */,
+				08F4F5842977D6CA0039C50A /* Lesson-1 */,
+				08F4F5852977D6E20039C50A /* Resources */,
+			);
+			path = clientServerAppGB;
+			sourceTree = "<group>";
+		};
+		08F4F5832977D6BE0039C50A /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				08F4F56F2977D0A20039C50A /* AppDelegate.swift */,
 				08F4F5712977D0A20039C50A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		08F4F5842977D6CA0039C50A /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
 				08F4F5732977D0A20039C50A /* ViewController.swift */,
+			);
+			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
+		08F4F5852977D6E20039C50A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				08F4F5752977D0A20039C50A /* Main.storyboard */,
 				08F4F5782977D0A40039C50A /* Assets.xcassets */,
 				08F4F57A2977D0A40039C50A /* LaunchScreen.storyboard */,
 				08F4F57D2977D0A40039C50A /* Info.plist */,
 			);
-			path = clientServerAppGB;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UAUYM5638;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = clientServerAppGB/Info.plist;
+				INFOPLIST_FILE = clientServerAppGB/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UAUYM5638;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = clientServerAppGB/Info.plist;
+				INFOPLIST_FILE = clientServerAppGB/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
